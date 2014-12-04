@@ -13,14 +13,17 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.example.huntbutler.MainActivity"
-            android:label="@string/app_name" >
+        <activity android:name="com.example.huntbutler.StartActivity" 
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.huntbutler.MainActivity"
+            android:label="@string/app_name" >
         </activity>
         <activity
             android:name="com.example.huntbutler.UploadActivity"
@@ -30,6 +33,7 @@
             android:name="com.example.huntbutler.MyProfile"
             android:label="@string/title_activity_my_profile" >
         </activity>
+        
     </application>
 
 </manifest>

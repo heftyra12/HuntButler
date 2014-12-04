@@ -29,7 +29,8 @@ implements OnEditorActionListener, OnClickListener{
 		profileButton	.setOnClickListener(this);
 	}
 
-	public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+	@Override
+    public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
         if (actionId == EditorInfo.IME_ACTION_DONE ||
     		actionId == EditorInfo.IME_ACTION_UNSPECIFIED) {
         	
@@ -37,6 +38,7 @@ implements OnEditorActionListener, OnClickListener{
         return false;
     }
 	
+	@Override
 	public void onClick(View v) {
 		// TODO Auto-generated method stub
 		switch (v.getId()) {
