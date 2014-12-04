@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HuntButler</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hunt_butler_image">Hunt butler image</string>
+    <string name="search">Search for hunting land</string>
+    <string name="upload">Upload Image or Video</string>
+    <string name="profile">My profile</string>
+    <string name="past_hunts">Past Hunts</string>
+    <string name="main_site">Link to main site</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <string name="main_menu">Main menu</string>
+    <string name="cancel">Cancel</string>
+    <string name="upload_button">Upload</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+    <string name="save">Save</string>
+    <string name="first_name">First name:</string>
+    <string name="last_name">Last name:</string>
+    <string name="email">Email address:</string>
+
+</resources>
